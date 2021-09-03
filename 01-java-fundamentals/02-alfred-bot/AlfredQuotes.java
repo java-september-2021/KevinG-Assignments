@@ -31,7 +31,7 @@ public class AlfredQuotes {
     // Inputs: String (Any phrase)
     // Return Type: String
     // Output: A repsonse (String)
-    public String answeringBeforeAlexis(String phrase) {
+    public String respondBeforeAlexis(String phrase) {
 
         if(phrase.indexOf("Alexis") > -1) {
             return "She's really of no help. What can I get for you?";
