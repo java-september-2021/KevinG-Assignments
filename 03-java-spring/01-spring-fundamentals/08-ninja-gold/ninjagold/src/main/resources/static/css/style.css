@@ -1,10 +1,12 @@
 @charset "ISO-8859-1";
 
 .container {
+	
 	width: 800px;
 }
 
-.building {
+.building{
+	
 	padding: 10px;
 	display: inline-block;
 	border: 2px solid black;
@@ -12,10 +14,18 @@
 }
 
 .activities {
-	width: 75%;
+	
+	width:100%;
 	border: 2px solid black;
+	overflow-y: auto;
 	max-height: 100px;
 	min-height: 75px;
-	overflow-y: auto;
+	}
 	
-}
+	.green {
+		color: green;
+	}
+	
+	.red {
+	color: red;
+	}

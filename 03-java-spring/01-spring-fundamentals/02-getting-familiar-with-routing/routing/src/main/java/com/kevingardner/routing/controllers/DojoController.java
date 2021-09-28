@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DojoController {
+	@RequestMapping("/dojo")
+	public String dojo() {
+		return "The dojo is awesome!";
+	}
 	@RequestMapping("/dojo/{location}")
 	public String dojoCenter(@PathVariable("location") String location) {
 		switch(location) {
@@ -16,7 +20,6 @@ public class DojoController {
 		default:
 			return String.format("%s is pretty sweet!", location);
 		}
-		}
 	}
-
-
+	
+}
