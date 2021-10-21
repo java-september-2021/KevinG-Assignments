@@ -28,12 +28,12 @@
 		<div class="form-group">
 			<label for="language">Favorite Language</label>
 			<select name="language" id="location">
-			<c:forEach items="${ languages }" var="lang">
-				<option value="<c:out value='${ lang }'/>"><c:out value='${ lang }'/></option>
+			<c:forEach items="${ languages }" var="${lang}">
+				<option value="<c:out value=${ lang }/>"><c:out value='${ lang }'/></option>
 			</c:forEach>
 			</select>
 		</div>
-		<div class="form-group">
+		<div class="form-group">	
 			<label for="comment">Comment</label>
 			<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 		</div>

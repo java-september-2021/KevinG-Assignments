@@ -8,7 +8,7 @@
 <title>Dojo Survey</title>
 </head>
 <body>
-<c:set var="result" value="${ result }"/>
+<c:set var="$result" value="${ result }"/>
 	<h1>Submitted Info</h1>
 	<p><strong>Name:</strong> <c:out value="${ result.getName() }"/></p>
 	<p><strong>Language:</strong> <c:out value="${ result.getLanguage() }"/></p>
