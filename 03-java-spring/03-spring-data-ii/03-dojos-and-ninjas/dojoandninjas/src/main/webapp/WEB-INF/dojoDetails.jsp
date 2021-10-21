@@ -12,7 +12,7 @@
 <body>
 	<div class="container">
 		<h1><c:out value="${dojo.name}"/>Location Ninjas</h1>
-		<table class="table table-success table-striped>
+		<table class="table table-success table-striped">
 			<tr>
 				<th>First Name</th>
 				<th> Last Name</th>
